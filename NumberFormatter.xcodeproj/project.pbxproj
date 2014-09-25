@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABE3B19719D4CB770055B8CA /* NumberFormatter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABE3B19619D4CB770055B8CA /* NumberFormatter.h */; };
-		ABE3B19919D4CB770055B8CA /* NumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE3B19819D4CB770055B8CA /* NumberFormatter.m */; };
 		ABE3B1AB19D4CBB10055B8CA /* NumberFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE3B1AA19D4CBB10055B8CA /* NumberFormatterTests.m */; };
-		ABE3B1AE19D4CFB80055B8CA /* NumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE3B19819D4CB770055B8CA /* NumberFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +27,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				ABE3B19719D4CB770055B8CA /* NumberFormatter.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +34,6 @@
 
 /* Begin PBXFileReference section */
 		ABE3B19319D4CB770055B8CA /* libNumberFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNumberFormatter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABE3B19619D4CB770055B8CA /* NumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberFormatter.h; sourceTree = "<group>"; };
-		ABE3B19819D4CB770055B8CA /* NumberFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberFormatter.m; sourceTree = "<group>"; };
 		ABE3B19E19D4CB780055B8CA /* NumberFormatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberFormatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE3B1A119D4CB780055B8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABE3B1AA19D4CBB10055B8CA /* NumberFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFormatterTests.m; sourceTree = "<group>"; };
@@ -66,7 +60,6 @@
 		ABE3B18A19D4CB770055B8CA = {
 			isa = PBXGroup;
 			children = (
-				ABE3B19519D4CB770055B8CA /* NumberFormatter */,
 				ABE3B19F19D4CB780055B8CA /* NumberFormatterTests */,
 				ABE3B19419D4CB770055B8CA /* Products */,
 			);
@@ -79,15 +72,6 @@
 				ABE3B19E19D4CB780055B8CA /* NumberFormatterTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		ABE3B19519D4CB770055B8CA /* NumberFormatter */ = {
-			isa = PBXGroup;
-			children = (
-				ABE3B19619D4CB770055B8CA /* NumberFormatter.h */,
-				ABE3B19819D4CB770055B8CA /* NumberFormatter.m */,
-			);
-			path = NumberFormatter;
 			sourceTree = "<group>";
 		};
 		ABE3B19F19D4CB780055B8CA /* NumberFormatterTests */ = {
@@ -195,7 +179,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABE3B19919D4CB770055B8CA /* NumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +187,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE3B1AB19D4CBB10055B8CA /* NumberFormatterTests.m in Sources */,
-				ABE3B1AE19D4CFB80055B8CA /* NumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

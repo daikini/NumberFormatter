@@ -8,13 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "NumberFormatter.h"
 
 static double const kMilesToMetersCoefficient = 1609.344;
 static double const kMetersToMilesCoefficient = 0.000621371192;
 
 @interface NumberFormatterTests : XCTestCase
-@property (strong, nonatomic) NumberFormatter *formatter;
+@property (strong, nonatomic) NSNumberFormatter *formatter;
 @property (strong, nonatomic) NSNumber *number;
 @end
 
@@ -23,7 +22,7 @@ static double const kMetersToMilesCoefficient = 0.000621371192;
 - (void)setUp {
     [super setUp];
     
-    self.formatter = [[NumberFormatter alloc] init];
+    self.formatter = [[NSNumberFormatter alloc] init];
     [self.formatter setUsesSignificantDigits:NO];
     [self.formatter setMaximumSignificantDigits:2];
     [self.formatter setMaximumFractionDigits:1];
