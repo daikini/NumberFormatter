@@ -1,0 +1,7 @@
+[
+  "-workspace", "NumberFormatter.xcodeproj",
+  "-scheme", "NumberFormatter",
+  "-configuration", "Debug",
+  "-sdk", "iphonesimulator",
+  "-arch", "i386"
+]
