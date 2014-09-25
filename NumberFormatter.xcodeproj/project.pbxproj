@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABE3B19719D4CB770055B8CA /* NumberFormatter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABE3B19619D4CB770055B8CA /* NumberFormatter.h */; };
+		ABE3B19919D4CB770055B8CA /* NumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE3B19819D4CB770055B8CA /* NumberFormatter.m */; };
+		ABE3B1AB19D4CBB10055B8CA /* NumberFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE3B1AA19D4CBB10055B8CA /* NumberFormatterTests.m */; };
+		ABE3B1AE19D4CFB80055B8CA /* NumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE3B19819D4CB770055B8CA /* NumberFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABE3B1AC19D4CC690055B8CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABE3B18B19D4CB770055B8CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABE3B19219D4CB770055B8CA;
+			remoteInfo = NumberFormatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABE3B19119D4CB770055B8CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				ABE3B19719D4CB770055B8CA /* NumberFormatter.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ABE3B19319D4CB770055B8CA /* libNumberFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNumberFormatter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE3B19619D4CB770055B8CA /* NumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberFormatter.h; sourceTree = "<group>"; };
+		ABE3B19819D4CB770055B8CA /* NumberFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberFormatter.m; sourceTree = "<group>"; };
+		ABE3B19E19D4CB780055B8CA /* NumberFormatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberFormatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE3B1A119D4CB780055B8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE3B1AA19D4CBB10055B8CA /* NumberFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFormatterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABE3B19019D4CB770055B8CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE3B19B19D4CB780055B8CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABE3B18A19D4CB770055B8CA = {
+			isa = PBXGroup;
+			children = (
+				ABE3B19519D4CB770055B8CA /* NumberFormatter */,
+				ABE3B19F19D4CB780055B8CA /* NumberFormatterTests */,
+				ABE3B19419D4CB770055B8CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABE3B19419D4CB770055B8CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABE3B19319D4CB770055B8CA /* libNumberFormatter.a */,
+				ABE3B19E19D4CB780055B8CA /* NumberFormatterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABE3B19519D4CB770055B8CA /* NumberFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				ABE3B19619D4CB770055B8CA /* NumberFormatter.h */,
+				ABE3B19819D4CB770055B8CA /* NumberFormatter.m */,
+			);
+			path = NumberFormatter;
+			sourceTree = "<group>";
+		};
+		ABE3B19F19D4CB780055B8CA /* NumberFormatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABE3B1A019D4CB780055B8CA /* Supporting Files */,
+				ABE3B1AA19D4CBB10055B8CA /* NumberFormatterTests.m */,
+			);
+			path = NumberFormatterTests;
+			sourceTree = "<group>";
+		};
+		ABE3B1A019D4CB780055B8CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABE3B1A119D4CB780055B8CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABE3B19219D4CB770055B8CA /* NumberFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE3B1A419D4CB780055B8CA /* Build configuration list for PBXNativeTarget "NumberFormatter" */;
+			buildPhases = (
+				ABE3B18F19D4CB770055B8CA /* Sources */,
+				ABE3B19019D4CB770055B8CA /* Frameworks */,
+				ABE3B19119D4CB770055B8CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberFormatter;
+			productName = NumberFormatter;
+			productReference = ABE3B19319D4CB770055B8CA /* libNumberFormatter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ABE3B19D19D4CB780055B8CA /* NumberFormatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE3B1A719D4CB780055B8CA /* Build configuration list for PBXNativeTarget "NumberFormatterTests" */;
+			buildPhases = (
+				ABE3B19A19D4CB780055B8CA /* Sources */,
+				ABE3B19B19D4CB780055B8CA /* Frameworks */,
+				ABE3B19C19D4CB780055B8CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABE3B1AD19D4CC690055B8CA /* PBXTargetDependency */,
+			);
+			name = NumberFormatterTests;
+			productName = NumberFormatterTests;
+			productReference = ABE3B19E19D4CB780055B8CA /* NumberFormatterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABE3B18B19D4CB770055B8CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jonathan Younger";
+				TargetAttributes = {
+					ABE3B19219D4CB770055B8CA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					ABE3B19D19D4CB780055B8CA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = ABE3B18E19D4CB770055B8CA /* Build configuration list for PBXProject "NumberFormatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABE3B18A19D4CB770055B8CA;
+			productRefGroup = ABE3B19419D4CB770055B8CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABE3B19219D4CB770055B8CA /* NumberFormatter */,
+				ABE3B19D19D4CB780055B8CA /* NumberFormatterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABE3B19C19D4CB780055B8CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABE3B18F19D4CB770055B8CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE3B19919D4CB770055B8CA /* NumberFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE3B19A19D4CB780055B8CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE3B1AB19D4CBB10055B8CA /* NumberFormatterTests.m in Sources */,
+				ABE3B1AE19D4CFB80055B8CA /* NumberFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABE3B1AD19D4CC690055B8CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABE3B19219D4CB770055B8CA /* NumberFormatter */;
+			targetProxy = ABE3B1AC19D4CC690055B8CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABE3B1A219D4CB780055B8CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABE3B1A319D4CB780055B8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABE3B1A519D4CB780055B8CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ABE3B1A619D4CB780055B8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ABE3B1A819D4CB780055B8CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NumberFormatterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABE3B1A919D4CB780055B8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NumberFormatterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABE3B18E19D4CB770055B8CA /* Build configuration list for PBXProject "NumberFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE3B1A219D4CB780055B8CA /* Debug */,
+				ABE3B1A319D4CB780055B8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE3B1A419D4CB780055B8CA /* Build configuration list for PBXNativeTarget "NumberFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE3B1A519D4CB780055B8CA /* Debug */,
+				ABE3B1A619D4CB780055B8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABE3B1A719D4CB780055B8CA /* Build configuration list for PBXNativeTarget "NumberFormatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE3B1A819D4CB780055B8CA /* Debug */,
+				ABE3B1A919D4CB780055B8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABE3B18B19D4CB770055B8CA /* Project object */;
+}
