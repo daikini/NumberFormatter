@@ -14,8 +14,6 @@
 {
     NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
     [formatter setUsesSignificantDigits:NO];
-    [formatter setMaximumFractionDigits:1];
-    
     [formatter setMaximumSignificantDigits:2];
     
     NSNumber *number = @(291.99);
