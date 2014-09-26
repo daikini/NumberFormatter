@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ABE3B1AB19D4CBB10055B8CA /* NumberFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE3B1AA19D4CBB10055B8CA /* NumberFormatterTests.m */; };
+		ABE3B1B019D4ED8F0055B8CA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE3B1AF19D4ED8F0055B8CA /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		ABE3B19E19D4CB780055B8CA /* NumberFormatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberFormatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE3B1A119D4CB780055B8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABE3B1AA19D4CBB10055B8CA /* NumberFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFormatterTests.m; sourceTree = "<group>"; };
+		ABE3B1AF19D4ED8F0055B8CA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE3B1B019D4ED8F0055B8CA /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +63,7 @@
 		ABE3B18A19D4CB770055B8CA = {
 			isa = PBXGroup;
 			children = (
+				ABE3B1AF19D4ED8F0055B8CA /* SenTestingKit.framework */,
 				ABE3B19F19D4CB780055B8CA /* NumberFormatterTests */,
 				ABE3B19419D4CB770055B8CA /* Products */,
 			);
@@ -299,6 +303,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -316,6 +321,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				INFOPLIST_FILE = NumberFormatterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

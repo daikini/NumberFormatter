@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <XCTest/XCTest.h>
+#import <SenTestingKit/SenTestingKit.h>
 
 static double const kMilesToMetersCoefficient = 1609.344;
 static double const kMetersToMilesCoefficient = 0.000621371192;
 
-@interface NumberFormatterTests : XCTestCase
+@interface NumberFormatterTests : SenTestCase
 @property (strong, nonatomic) NSNumberFormatter *formatter;
 @property (strong, nonatomic) NSNumber *number;
 @end
@@ -40,7 +40,7 @@ static double const kMetersToMilesCoefficient = 0.000621371192;
 
 - (void)testFormattedNumberShouldEqualOriginalNumber
 {
-    XCTAssertEqualObjects(@"292", [self.formatter stringFromNumber:self.number]);
+    STAssertEquals(@"292", [self.formatter stringFromNumber:self.number], @"Formatted number should equal original number");
 }
 
 @end
