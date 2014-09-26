@@ -1,18 +1,17 @@
 //
 //  NumberFormatterTests.m
-//  NumberFormatter
+//  NumberFormatterTests
 //
-//  Created by Jonathan Younger on 9/25/14.
+//  Created by Jonathan Younger on 9/26/14.
 //  Copyright (c) 2014 Jonathan Younger. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <XCTest/XCTest.h>
+#import "NumberFormatterTests.h"
 
 static double const kMilesToMetersCoefficient = 1609.344;
 static double const kMetersToMilesCoefficient = 0.000621371192;
 
-@interface NumberFormatterTests : XCTestCase
+@interface NumberFormatterTests()
 @property (strong, nonatomic) NSNumberFormatter *formatter;
 @property (strong, nonatomic) NSNumber *number;
 @end
@@ -40,7 +39,7 @@ static double const kMetersToMilesCoefficient = 0.000621371192;
 
 - (void)testFormattedNumberShouldEqualOriginalNumber
 {
-    XCTAssertEqualObjects(@"292", [self.formatter stringFromNumber:self.number]);
+    STAssertEqualObjects(@"292", [self.formatter stringFromNumber:self.number], @"Formatted number should equal original number");
 }
 
 @end

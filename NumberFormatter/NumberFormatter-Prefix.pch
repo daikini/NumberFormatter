@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NumberFormatter' target in the 'NumberFormatter' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
