@@ -1,5 +1,5 @@
 [
-  "-workspace", "NumberFormatter.xcodeproj",
+  "-project", "NumberFormatter.xcodeproj",
   "-scheme", "NumberFormatter",
   "-configuration", "Debug",
   "-sdk", "iphonesimulator",
